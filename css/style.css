@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&display=swap');
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -40,8 +40,8 @@
     --bs-border-width: 1px;
     --bs-border-style: solid;
     --bs-border-color: #A37507;
-    --bs-link-color: #A37507;
-    --bs-link-hover-color: #A37507;
+    --bs-link-color: #FF7A4A;
+    --bs-link-hover-color: #FF7A4A;
   }
   
   *,
@@ -59,6 +59,7 @@ body{
     margin: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
     color: var(--bs-secondary);
+    background: #DFD5EC;
 }
 a {
     color: var(--bs-link-color);
@@ -94,24 +95,17 @@ a {
     background:transparent;
     height: 80px;
 }
+.main-bg{
+  background: #F7F4F2;
+}
 .hero-title h2{
     color: #FFF;
-    font-family: Playfair Display;
+    font-family: "Playfair Display";
     font-size: 70px;
     font-style: normal;
     font-weight: 600;
     line-height: 84px;
     text-transform: uppercase;
-}
-.leaf-item{
-    width: 800px;
-    height: 250px;
-}
-.leaf-single-item img{
-    width: 125px;
-}
-.leaf-single-item-center img{
-    width: 230px;
 }
 .fixed-headline{
   width: 700px;
@@ -236,10 +230,7 @@ font-weight: 300;
 line-height: 48px;
 text-align: justify;
 }
-.my-jurney-bottom{
-  background: #EBE3DC;
-  height: 300px;
-}
+
 .hero-border{
   margin: 50px 0px;
   width: 150px;
@@ -253,220 +244,140 @@ text-align: justify;
   line-height: 48px;
   text-align: justify;
 }
-  /* Our unique approach  */
-  .our-approach-section{
-    margin: 80px 0px;
-  }
-  .approach-title h2{
-    color: var(--bs-secondary);
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 40.889px;
-    text-transform: capitalize;
-  }
-  .approach-auto-slide p{
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    padding: 50px;
-    width: 500px;
-  }
-  /* .carousel-indicators-text {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  } */
-
-  .custom-indicators{
-    position: unset;
-    right: 0;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: unset;
-    margin-bottom: -1rem;
-    margin-left: unset;
-  }
-  .carousel-indicators [data-bs-target]{
-    width: 420px;
-    text-align: center;
-    color: #A37507;
-    font-family: 'Playfair Display';
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    position: unset;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    margin-right: unset;
-    margin-top: -100px;
-    margin-left: unset;
-    text-indent: unset;
-  }
-  .inicator-section{
-    margin-top: 80px;
-  }
-
- /* Our Project Section  */
-  .our-project-section .title{
-    color: var(--bs-secondary);
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: capitalize;
-  }
-  .our-project-section .nav-link{
-    border: 1px solid #575757;
-    background: transparent;
-    display: flex;
-    width: 240px;
-    padding: 16px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 0px;
-  }
-  .our-project-section .nav-link{
-    color: #575757;
-    font-family: 'Be Vietnam Pro';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    text-transform: uppercase;
-  }
-  .our-project-section .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: var(--bs-primary);
-    background-color: transparent;
-    border: 1px solid var(--bs-border-color);
-}
-.arrow-icon img{
-  margin-left: -80px;
-}
-.project-details{
-  margin: 80px;
-}
-.project-details h2{
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.project-details p{
+.brief-history{
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-}
-.arrow-icon-2 img{
-  margin-left: 5px;
-  z-index: 99;
-}
-.arrow-icon img:hover{
-  background-image: url(../images/circle-angle-arrow-hover.png);
-  z-index: 9999;
-  position: relative;
-  color: var(--bs-success);
-}
-/* Land Owner Section  */
-.overlay-custom-text{
-  margin-top: 150px;
-}
-.overlay-custom-text h2{
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 75px;
-  text-transform: capitalize;
-}
-.overlay-custom-text p{
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  line-height: 24px;
   text-transform: uppercase;
+
 }
-/* key-point-section Section  */
-.key-point-section{
-  background: #F7F7F7;
-  padding: 120px 0px;
+  /* experience Section  */
+.experience-section-content{
+  padding: 50px 15px 50px 80px;
 }
-.key-point-section .title{
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 75px;
+.experience-logo{
+
 }
-.key-point-section .subtitle{
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.single-key-point{
-  background: var(--bs-success);
-  border-radius: 5px;
-  padding: 20px ;
-  display: block;
-  width: 100%;
-  height: 330px;
-  position: relative;
-}
-.single-key-point h2{
-  margin-top: 200px;
+.position-text h2{
+  font-family: "Merriweather";
   font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0px;
+  width: 250px;
 }
-#keyPoint .box{
-  position: relative;
-}
-#keyPoint .text{
-  color: var(--bs-success);
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  overflow: hidden;
-  width: 100%;
-  padding: 20px;
-}
-#keyPoint .overlay{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 0;
-  transition: 0.5s ease;
-  overflow: hidden;
-  background: #A37507;
-}
-#keyPoint .box:hover .overlay{
-  height: 100%;
-  background: #A37507;
-  color: var(--bs-success);
-  display: block;
-  border-radius: 5px;
+.position-text p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0px;
 }
 
+  /* speech section  */
+.speech-section h2{
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 48px;
+  color: white;
+}
+.speech-section p{
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 70px;
+  color: white;
+  width: 200px;
+  margin-right: 50px;
+  border-right: 2px solid #EBE3DC;
+}
+.mt-430{
+  margin-top: 463px;
+}
+  /* achievement section  */
+  .achievement-content h3{
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 70px;  
+  }
+  .achievement-content h2{
+    font-family: "Merriweather";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    width: 320px; 
+    border-bottom: 1px solid #1A1F29;
+    margin-bottom: 10px; 
+  }
+  .achievement-content p{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+    width: 370px;      
+  }
+
+/* company-info-section Section  */
+.company-info{
+  background: #31353E;
+  padding: 50px;
+}
+.company-info h2{
+  font-family: "Cinzel";
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #EBE3DC;
+}
+.company-info p{
+font-family: "Montserrat";
+font-size: 14px;
+font-weight: 300;
+line-height: 17.07px;
+letter-spacing: 0.1em;
+color: #EBE3DC;
+}
+.company-info a{
+font-family: "Montserrat";
+text-decoration: underline;
+}
+.company-description p{
+font-family: "Merriweather";
+font-size: 24px;
+font-weight: 300;
+line-height: 38px;
+padding: 50px 0px;
+}
+.company-image {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.company-image img {
+  max-width: 440px;
+  height: auto;
+  border-right: 1px solid #444;
+}
+.company-image img:last-child {
+  border-right: 0px solid #222;
+}
+
+/* client-logo-section style */
+.client-logo-content{
+  padding: 200px 0 50px 0;
+}
+.client-logo-section .owl-carousel .item img{
+  width: 200px;
+  height: 100px;
+}
 /* gallery-section style */
-.gallery-overly-image img{
-  width: 212px;
-  height: 250px;
+.gallery-section .owl-carousel .item img{
+  width: 400px;
+  height: 500px;
 }
 /* contact-section style */
 .contact-section{
