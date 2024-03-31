@@ -431,33 +431,54 @@ padding: 50px 0px;
 
 /* Responsive design */
 @media screen and (max-width: 600px) {
-  .masthead-heading {
-    width: 410px;
+  .header-right-content {
+    padding-left: 20px;
 }
-  header.masthead {
-    padding-top: 8rem;
-    padding-bottom: 6rem;
-    color: #fff;
-    background-image: url("../images/hero-image.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+  header .masthead-heading h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
 }
-  header.masthead .masthead-heading h2 {
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 84px;
-    text-transform: uppercase;
+.hero-title h2 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: justify;
 }
-.leaf-item {
-  width: 400px;
-  height: 250px;
+.hero-description p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: justify;
 }
-.leaf-single-item-center img {
-  width: 130px;
+.mt-430 {
+  margin-top: 363px;
 }
+.company-info h2 {
+  font-family: "Cinzel";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #EBE3DC;
+}
+.company-description p {
+  font-family: "Merriweather";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 38px;
+  padding: 50px 30px;
+}
+.achievement-content p {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+
 .fixed-headline {
   width: 400px;
   margin: 0 auto;
