@@ -87,6 +87,9 @@ a {
   .text-primary {
     color: var(--bs-link-color) !important;
   }
+  .mt-md-10{
+    margin-top: 5rem !important;
+  }
 .logo{
     width: 35px;
     height: 40px;
@@ -98,34 +101,7 @@ a {
 .main-bg{
   background: #F7F4F2;
 }
-.hero-title h2{
-    color: #FFF;
-    font-family: "Playfair Display";
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 84px;
-    text-transform: uppercase;
-}
-.fixed-headline{
-  width: 700px;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-.fixed-headline h2 {
-text-align: center;
-font-size: 72px;
-font-style: normal;
-font-weight: 500;
-line-height: 86px;
-text-transform: uppercase;
-}
-.sticky-top-title {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 150px;
-    z-index: 1020;
-}
+
 /* style hero section */
 
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -173,7 +149,7 @@ text-transform: uppercase;
     }
   }
  .header-right-content{
-    padding-left: 150px;
+    padding-left: 100px;
  }
   .masthead-heading{
     width: 410px;
@@ -217,6 +193,7 @@ text-transform: uppercase;
 }
 .my-jurney{
   font-family: "Raleway";
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 400;
   line-height: 70px;
@@ -225,10 +202,13 @@ text-transform: uppercase;
   width: 200px;
 }
 .hero-title h2{
+font-family: "Merriweather";
 font-size: 32px;
 font-weight: 300;
 line-height: 48px;
 text-align: justify;
+color: #EBE3DC;
+
 }
 
 .hero-border{
@@ -237,19 +217,28 @@ text-align: justify;
   height: 300px;
   border-left:5px solid #E0CEC8;
   border-bottom:5px solid #E0CEC8;
+  margin-bottom: 300px;
 }
 .hero-description p{
   font-size: 28px;
   font-weight: 300;
   line-height: 48px;
   text-align: justify;
+  margin-bottom: 300px;
 }
 .brief-history{
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
-
+  padding-left: 80px;
+  font-family: "Raleway";
+}
+.hero-description-success p{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: justify;
 }
   /* experience Section  */
 .experience-section-content{
@@ -263,7 +252,7 @@ text-align: justify;
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   width: 250px;
 }
 .position-text p{
@@ -400,7 +389,7 @@ padding: 50px 0px;
   z-index: 1;
 }
 .address-text{
-  padding: 30px 80px;
+  padding: 30px 0px 30px 80px;
 }
 .address-text h3{
   font-family: "Raleway";
@@ -417,7 +406,7 @@ padding: 50px 0px;
   line-height: 28px;
 }
 .social-icon img{
-  margin-right: 10px;
+  margin-right: 35px;
   margin-top: 15px;
 }
 .copyright p{
@@ -425,12 +414,16 @@ padding: 50px 0px;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
-  color: #685E4C; 
+  color: #685E4CB2;
   margin-top: 30px;
+  text-transform: uppercase;
 }
 
 /* Responsive design */
 @media screen and (max-width: 600px) {
+  .mt-md-10{
+    margin-top: 3rem !important;
+  }
   .header-right-content {
     padding-left: 20px;
 }
@@ -445,11 +438,29 @@ padding: 50px 0px;
   line-height: 48px;
   text-align: justify;
 }
-.hero-description p {
-  font-size: 18px;
+.hero-border{
+  margin: 50px 0px;
+  width: 150px;
+  height: 300px;
+  border-left:5px solid #E0CEC8;
+  border-bottom:5px solid #E0CEC8;
+  margin-bottom: 100px;
+}
+.hero-description p{
+  font-size: 28px;
   font-weight: 300;
   line-height: 48px;
   text-align: justify;
+  margin-bottom: 100px;
+}
+.brief-history {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-left: 80px;
+  font-family: "Raleway";
+  margin-top: 100px;
 }
 .mt-430 {
   margin-top: 363px;
