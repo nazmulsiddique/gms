@@ -61,6 +61,7 @@ window.addEventListener('DOMContentLoaded', event => {
 $(document).ready(function () {
     $('#owl-carousel-1').owlCarousel({
         loop: true,
+        rtl: true,
         margin: 10,
         autoplay:true,
         autoplayTimeout:2000,
